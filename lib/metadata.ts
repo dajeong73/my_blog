@@ -2,15 +2,15 @@ import type { Metadata } from 'next';
 
 // 기본 사이트 정보
 const SITE_CONFIG = {
-  name: 'My Blog',
-  description: '개발, 기술, 그리고 일상을 공유하는 블로그',
+  name: 'Music Blog',
+  description: '다양한 음악 장르와 아티스트에 대한 리뷰, 인터뷰, 그리고 음악 이야기를 공유하는 블로그',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3001',
   author: {
-    name: '블로그 작성자',
-    email: 'admin@myblog.com',
+    name: 'Music Blogger',
+    email: 'admin@musicblog.com',
   },
   social: {
-    twitter: '@myblog',
+    twitter: '@musicblog',
   },
 } as const;
 
