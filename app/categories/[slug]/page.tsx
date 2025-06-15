@@ -92,7 +92,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       .eq('status', 'published')
       .eq('category_id', category.id);
 
-    const description = category.description || `${category.name} 관련 글들을 모아놓은 카테고리입니다.`;
+    const description = category.description || `${category.name} 관련 음악 글들을 모아놓은 카테고리입니다.`;
 
     console.log('✅ 카테고리 메타데이터 생성 완료:', category.name);
     return {
@@ -233,7 +233,7 @@ export default async function CategoryDetailPage({ params }: PageProps) {
       id: category.id,
       name: category.name,
       slug: category.slug,
-      description: category.description || `${category.name} 관련 글들을 모아놓은 카테고리입니다.`,
+      description: category.description || `${category.name} 관련 음악 글들을 모아놓은 카테고리입니다.`,
       color: category.color || '#3b82f6' // 데이터베이스의 color 컬럼 사용
     };
 

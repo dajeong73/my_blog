@@ -74,10 +74,10 @@ export default async function CategoriesPage() {
         {/* 페이지 헤더 */}
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            카테고리
+            음악 카테고리
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            관심 있는 주제별로 글을 찾아보세요. 각 카테고리마다 엄선된 고품질 콘텐츠를 제공합니다.
+            다양한 음악 장르와 테마별로 글을 찾아보세요. 각 카테고리마다 음악에 대한 깊이 있는 이야기를 제공합니다.
           </p>
         </section>
 
@@ -85,8 +85,8 @@ export default async function CategoriesPage() {
         <section className="mb-12">
           <div className="text-center">
             <div className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-muted text-muted-foreground text-sm">
-              <span>📚</span>
-              <span>총 {categoriesWithCount.length}개의 카테고리</span>
+              <span>🎵</span>
+              <span>총 {categoriesWithCount.length}개의 음악 카테고리</span>
               <span>•</span>
               <span>{categoriesWithCount.reduce((sum, cat) => sum + cat.postCount, 0)}개의 글</span>
             </div>
@@ -162,10 +162,9 @@ export default async function CategoriesPage() {
         {categoriesWithCount.length > 0 && (
           <section className="mt-16 text-center">
             <div className="max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">원하는 카테고리를 찾지 못하셨나요?</h3>
+              <h3 className="text-2xl font-bold mb-4">원하는 음악 카테고리를 찾지 못하셨나요?</h3>
               <p className="text-muted-foreground mb-6">
-                더 많은 주제와 카테고리가 지속적으로 추가되고 있습니다. 
-                특정 주제에 대한 글을 원하신다면 언제든 요청해주세요.
+                더 많은 음악 장르와 테마가 지속적으로 추가되고 있습니다. 특정 음악에 대한 글을 원하신다면 언제든 요청해주세요.
               </p>
               <div className="flex justify-center gap-4">
                 <Link
@@ -194,10 +193,10 @@ export default async function CategoriesPage() {
       <div className="py-16">
         <section className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            카테고리
+            음악 카테고리
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            관심 있는 주제별로 글을 찾아보세요. 각 카테고리마다 엄선된 고품질 콘텐츠를 제공합니다.
+            다양한 음악 장르와 테마별로 글을 찾아보세요. 각 카테고리마다 음악에 대한 깊이 있는 이야기를 제공합니다.
           </p>
         </section>
 
