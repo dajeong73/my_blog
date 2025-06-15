@@ -127,11 +127,10 @@ export default async function Home() {
       <section className="text-center mb-20">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-purple-600 to-blue-600 bg-clip-text text-transparent">
-            Welcome to My Blog
+            Welcome to Music Blog
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-            웹 개발, JavaScript, React, Next.js에 관한 최신 기술과 실무 경험을 공유합니다. 
-            함께 성장하는 개발자가 되어보세요.
+            최신 음악 트렌드, 다양한 장르의 리뷰와 음악에 관한 모든 이야기를 만나보세요. 음악과 함께하는 일상을 공유합니다.
           </p>
           
           {/* CTA 버튼들 */}
@@ -140,7 +139,7 @@ export default async function Home() {
               href="/posts"
               className="w-full sm:w-auto inline-flex items-center justify-center rounded-lg bg-primary px-8 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-md hover:shadow-lg"
             >
-              📚 블로그 글 읽기
+              🎵 음악 글 읽기
             </Link>
             <Link
               href="/about"
